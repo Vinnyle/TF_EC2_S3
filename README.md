@@ -1,2 +1,2 @@
-# TF_EC2_S3
-Terraform project to deploy S3 bucket only available for EC2 Instance
+# TERRAFORM PROJECT
+S3 Bucket module that create a S3 Bucket with a policy that only authorize the EC2 Instance and the IAM Account to access it
