@@ -51,11 +51,11 @@ variable "vpc_name" {
 variable "subnet_name" {
   description = "Name of the subnet"
   type = string
-  default = "subnet-grp-40"
+  default = ""
 }
 
 variable "ec2_instance_name" {
   description = "Name of the EC2 Instance"
   type  = string
-  default = "ec2-grp-40"
+  default = ""
 }
