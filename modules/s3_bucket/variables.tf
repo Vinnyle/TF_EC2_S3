@@ -13,13 +13,18 @@ variable "user_arn" {
   type = string
 }
 
+variable "ec2_public_ip" {
+  description = "Public IP of EC2 Instance"
+  type = string
+}
+
 variable "ec2_arn" {
   description = "ARN of the EC2 Instance"
   type = string
 }
 
 variable "tags" {
-  description = "Tags to set on the bucket."
+  description = "Tags to set on ressources"
   type = map(string)
   default = {}
 }

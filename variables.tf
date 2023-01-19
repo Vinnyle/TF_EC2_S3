@@ -21,41 +21,48 @@ variable "aws_secret_key" {
 variable "user_arn" {
   description = "ARN of the AWS User"
   type        = string
-  default     = ""
+  default     = "adm-tf_01"
 }
 
 variable "bucket_name" {
   description = "Name of the S3 Bucket"
   type        = string
-  default     = ""
+  default     = "s3-grp-40"
 }
 
 variable "key_name" {
   description = "Name of the SSH Key pair"  
   type = string
-  default = ""
+  default = "my_ssh_key"
 }
 
 variable "nsg_name" {
   description = "Name of the Network security group"
   type = string
-  default = ""
+  default = "nsg-grp-40"
 }
 
 variable "vpc_name" {
   description = "Name of the VPC"
   type = string
-  default = ""
+  default = "vpc-40257432"
 }
 
 variable "subnet_name" {
   description = "Name of the subnet"
   type = string
-  default = ""
+  default = "subnet-grp-40"
+}
+
+variable "ec2_ami" {
+  description = "AMI of EC2 Instance"
+  type = string
+  default = "ami-0b5eea76982371e91"
 }
 
 variable "ec2_instance_name" {
   description = "Name of the EC2 Instance"
   type  = string
-  default = ""
+  default = "ec2-grp-40"
 }
+
